@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter';
+}
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-color: hsl(0, 0%, 8%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card{
+    width: 385px;
+    height: 595px;
+    background-color: hsl(0, 0%, 12%);
+    display: flex;
+    justify-content: center;
+    border-radius: 15px;
+}
+
+.bottom__buttons{
+    width: 100%;
+}
+.button{
+    width: 100%;
+    height: 50px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: hsl(0, 0%, 20%);
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    transition: 0.5s;
+}
+.button:hover{
+    background-color: hsl(75, 94%, 57%);
+}
+
+.jessica__img{
+    width: 100px;
+    border-radius: 50%;
+}
+.jessica__avatar{
+    width: 100%;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;  
+}
+
+.name__surname{
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 28px;
+    margin-bottom: 7px;
+}
+
+.location, .name__surname, .front-end__dev{
+    text-align: center;
+}
+
+.location{
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+.front-end__dev{
+    color: hsl(0, 0%, 100%);
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+.attribution{
+    color: white;
+    top: 95%;
+    position: absolute;
+}
